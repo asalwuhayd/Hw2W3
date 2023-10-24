@@ -1,0 +1,212 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  body{
+    background-color: #fff;
+  }
+  .page {
+    height: 165vh;
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 33% 26% 26% 15%;
+    grid-template-areas:
+      "logo nav cont cont"
+      "side foot boot toot"
+      "hoot joot joot toot"
+      "koot loot zoot zoot ";
+  }
+  .st1 {
+    grid-area: logo;
+    background-color: #fff;
+    color: black;
+    text-align: center; 
+  }
+
+  .head{
+
+    position: relative;
+    margin-top: 80px;
+  }
+  .head11{
+
+    position: relative;
+    left: 4%;
+  }
+  .st2 {
+    grid-area: nav;
+    background-color: #fff;
+  }
+  .imeg1{
+    left: 10%;
+    position: relative;
+    margin-top: 110px;
+  }
+
+  .st3 {
+    grid-area: cont;
+    background-color:#f7f8f9;
+    color: black;
+    text-align: center;
+  }
+  
+  .s3{
+
+    position: relative;
+    margin-top: 70px; 
+  }
+  .head1{
+   
+    left:  2%;
+    position: relative;
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: bold; 
+  }
+  .st3 .dn{
+   
+    color: #27b9c2;
+    text-decoration: underline;
+  }
+
+  .st4 {
+    grid-area: side;
+    background-color: #f05638;
+    color: white;
+  }
+
+  .imeg2{
+
+    left:  5%;
+    position: relative;
+    margin-top: 40px;
+  }
+  .st4 .arrow{
+    color: #ffc80a;
+    display: inline-block;
+    position: relative;
+    left: 35%;
+    margin-top: 25px;
+    text-decoration: none;
+  }
+  .head2{
+    left:  25%;
+    position: relative;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+
+  }
+  .st5 {
+    grid-area: foot;
+    background-color: #fff;
+    color: black;
+  }
+
+  .head3{
+    left:  25%;
+    position: relative;
+    margin-top: 60px;
+
+  }
+  .head4{
+    left:  25%;
+    position: relative;
+    margin-top: 20px;
+    font-size: 27px;
+    font-weight: 500;
+
+  }
+  .imeg3{
+    position: relative;
+    left: -48%;
+    width: 115%;
+    max-width: none;
+    margin-top: 16px;
+  }
+
+  .st6 {
+    grid-area: boot;
+    background-color: #fff;
+    color: black;
+
+  }
+
+  .head5{
+    left:  2%;
+    position: relative;
+    margin-top: 60px;
+    font-size: 18px;
+    color: gray;
+
+  }
+  .arrow1{
+    color: #27b9c2;
+    position: relative;
+    left:  2%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .st7 {
+    grid-area: toot;
+    background-color: #8166b0;
+    color: white;  
+  }
+
+  .head6{
+
+    position: relative;
+    margin-top: 60px;
+    left: 40%;
+    
+    
+  }
+  .imeg4{
+    position: relative;
+    left: 15%;
+    margin-top: 10px;
+  }
+  .head7{
+
+    position: relative;
+    left: 45%;
+    margin-top: -5px;
+  }
+
+  .st8 {
+    grid-area: hoot;
+    background-color: #f7f8f9;
+    color: black;
+    
+  }
+  .st9 {
+    grid-area: joot;
+    background-color: #93b6b7;
+    color: white;
+    
+  }
+  .st10 {
+    grid-area: koot;
+    background-color: #35cfed;
+    color: white;
+    
+  }
+  .st11 {
+    grid-area: loot;
+    background-color: #f7f8f9;
+    color: white;
+  }
+  .st11 {
+    grid-area: zoot;
+    background-color: #2c2c2c;
+    color: white;
+  }
